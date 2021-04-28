@@ -1,5 +1,5 @@
 //server hosting socket.js application
-const socket = io('https://mbellydo-real-time-chat.herokuapp.com:3000')
+const socket = io('https://mbellydo-real-time-chat.herokuapp.com')
 const messageContainer = document.getElementById('message-container')
 
 //obtener formulario
